@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Call Java API</title>
+</head>
+<body>
+  <button id="callApiButton">Java call</button>
+  <div id="result"></div>
+
+  <script>
+    document.getElementById('callApiButton').addEventListener('click', function() {
+      fetch('http://localhost:8080/api/data')
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById('result').innerText = data;
+        })
+        .catch(error => console.error('Error:', error));
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+package com.example.my-app.rest;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class DatasetController {
+
+    @GetMapping("/dataset")
+    public String getDataset() {
+        // Read and return the contents of the dataset.json file
+    }
+}

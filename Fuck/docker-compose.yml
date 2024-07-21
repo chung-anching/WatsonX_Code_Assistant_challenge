@@ -1,0 +1,11 @@
+version: '3'
+services:
+  java-rest-api-docker:
+    image: java-rest-api-docker
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./src/main/resources/dataset.json:/usr/local/tomcat/webapps/dataset.json
+
+
+

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Watson Code Assistant for Track3</title>
+    <script>
+        async function javaCall() {
+            const response = await fetch('http://localhost:8080/demo/members');
+            const data = await response.json();
+            let table = document.getElementById("javaTable");
+            table.innerHTML = `<tr>
+                <th>ID</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+            </tr>`;
+            data.forEach(member => {
+                let row = `<tr>
+                    <td>${member.member_id}</td>
+                    <td>${member.name.split(' ')[0]}</td>
+                    <td>${member.name.split(' ')[1]}</td>
+                    <td>${member.email}</td>
+                </tr>`;
+                table.innerHTML += row;
+            });
+        }
+    </script>
+</head>
+<body>
+    <h1>Watson Code Assistant for Track3</h1>
+    <button onclick="javaCall()">Call Java</button>
+    <table id="javaTable">
+        <tr>
+            <th>ID</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+        </tr>
+    </table>
+</body>
+</html>

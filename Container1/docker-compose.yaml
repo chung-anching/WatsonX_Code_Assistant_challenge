@@ -1,0 +1,19 @@
+version: '3'
+services:
+  nginx:
+    image: nginx:latest
+    volumes:
+      - ./nginx:/etc/nginx/conf.d
+    ports:
+      - 80:80
+    depends_on:
+      - nodejs
+
+    
+  nodejs:
+    build: ./node
+    ports:
+      - 8080:8080
+    volumes:
+      - ./node/www:/usr/src/app/www
+      - ./node/server.js:/usr/src/app/server.js

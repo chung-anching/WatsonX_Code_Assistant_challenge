@@ -1,0 +1,10 @@
+role,message_payload,is_helpful,request_type,create_ts,feedback
+system,"Hi **Anderson Chung**, welcome to WCA@IBM 👋! I'm your trusty assistant, here to answer your questions, provide explanations, and even generate code. So, go ahead and start chatting with me below!
+
+You can also do some other really cool things! For example, highlight a piece of code and:
+
+- Explain Code Snippet: `⌥+Q E` (Mac) or `Alt+Q E` (Windows)
+- Generate Documentation: `⌥+Q S` or `Alt+Q S`
+- Generate Unit Tests: `⌥+Q T` or `Alt+Q T`
+
+Just like you 😊, I am not perfect, so surprises and mistakes are possible. Please verify any generated code or suggestions, and modify as needed. Let's get started!",,,2024-07-19 07:35:19.312004,

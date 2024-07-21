@@ -1,0 +1,46 @@
+19-Jul-2024 13:41:32.937 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.26
+19-Jul-2024 13:41:32.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 7 2024 21:02:13 UTC
+19-Jul-2024 13:41:32.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.26.0
+19-Jul-2024 13:41:32.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+19-Jul-2024 13:41:32.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            14.5
+19-Jul-2024 13:41:32.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+19-Jul-2024 13:41:32.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home
+19-Jul-2024 13:41:32.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.20+9-LTS-256
+19-Jul-2024 13:41:32.940 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Jul-2024 13:41:32.940 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/zhonganqing/Documents/WCA/apache-tomcat-10.1.26
+19-Jul-2024 13:41:32.940 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/zhonganqing/Documents/WCA/apache-tomcat-10.1.26
+19-Jul-2024 13:41:32.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/zhonganqing/Documents/WCA/apache-tomcat-10.1.26/conf/logging.properties
+19-Jul-2024 13:41:32.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Jul-2024 13:41:32.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Jul-2024 13:41:32.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Jul-2024 13:41:32.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+19-Jul-2024 13:41:32.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+19-Jul-2024 13:41:32.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+19-Jul-2024 13:41:32.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+19-Jul-2024 13:41:32.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+19-Jul-2024 13:41:32.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+19-Jul-2024 13:41:32.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/zhonganqing/Documents/WCA/apache-tomcat-10.1.26
+19-Jul-2024 13:41:32.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/zhonganqing/Documents/WCA/apache-tomcat-10.1.26
+19-Jul-2024 13:41:32.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/zhonganqing/Documents/WCA/apache-tomcat-10.1.26/temp
+19-Jul-2024 13:41:32.997 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/zhonganqing/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+19-Jul-2024 13:41:33.208 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-Jul-2024 13:41:33.246 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [437] milliseconds
+19-Jul-2024 13:41:33.270 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Jul-2024 13:41:33.270 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.26]
+19-Jul-2024 13:41:33.275 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/zhonganqing/Documents/WCA/apache-tomcat-10.1.26/webapps/docs]
+19-Jul-2024 13:41:33.469 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Jul-2024 13:41:33.495 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/zhonganqing/Documents/WCA/apache-tomcat-10.1.26/webapps/docs] has finished in [220] ms
+19-Jul-2024 13:41:33.495 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/zhonganqing/Documents/WCA/apache-tomcat-10.1.26/webapps/manager]
+19-Jul-2024 13:41:33.516 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Jul-2024 13:41:33.519 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/zhonganqing/Documents/WCA/apache-tomcat-10.1.26/webapps/manager] has finished in [24] ms
+19-Jul-2024 13:41:33.519 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/zhonganqing/Documents/WCA/apache-tomcat-10.1.26/webapps/examples]
+19-Jul-2024 13:41:33.611 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Jul-2024 13:41:33.618 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/zhonganqing/Documents/WCA/apache-tomcat-10.1.26/webapps/examples] has finished in [99] ms
+19-Jul-2024 13:41:33.618 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/zhonganqing/Documents/WCA/apache-tomcat-10.1.26/webapps/ROOT]
+19-Jul-2024 13:41:33.637 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Jul-2024 13:41:33.638 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/zhonganqing/Documents/WCA/apache-tomcat-10.1.26/webapps/ROOT] has finished in [20] ms
+19-Jul-2024 13:41:33.638 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/zhonganqing/Documents/WCA/apache-tomcat-10.1.26/webapps/host-manager]
+19-Jul-2024 13:41:33.653 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Jul-2024 13:41:33.654 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/zhonganqing/Documents/WCA/apache-tomcat-10.1.26/webapps/host-manager] has finished in [16] ms
+19-Jul-2024 13:41:33.658 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+19-Jul-2024 13:41:33.664 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [417] milliseconds

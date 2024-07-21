@@ -1,0 +1,15 @@
+# // Assisted by WCA@IBM
+# // Latest GenAI contribution: ibm/granite-20b-code-instruct-v2
+version: '3'
+services:
+  # The first service is the container that runs the Tomcat server
+  tomcat:
+    build: .
+    ports:
+      - "8080:8080"
+  # The second service is the container that runs the Python script
+  python:
+    build: .
+    command: python3 /app/main.py
+    volumes:
+      - ./:/app
